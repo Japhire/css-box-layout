@@ -1,9 +1,14 @@
 html {
-
-}
-
-body {
-
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
 }
 
 img {
@@ -13,30 +18,22 @@ img {
 }
 
 a:link{
-
+    color: darkgray;
+    background-color: white;
+    text-decoration: none;
 }
 
 a:visited{
-
+    color: seagreen;
 }
 
 a:hover{
-
+    text-decoration: underline;
 }
 
-a:active{
-
-}
 header{
-
-}
-
-main{
-
-}
-
-nav{
-
+    width: 80%;
+    margin-left: 10%;
 }
 
 aside{
@@ -48,5 +45,5 @@ aside p{
 }
 
 footer{
-    
+    background-color: gray;
 }
